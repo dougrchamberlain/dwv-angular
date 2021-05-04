@@ -251,7 +251,7 @@ export class DwvComponent implements OnInit {
         }
         const size = this.dwvApp.getLayerContainerSize();
         // set the initial drop box size
-        box.setAttribute("style", "width:50vw;height:50vh");
+        box.setAttribute("style", "width:50vw;height:60vh");
       } else {
         // remove border css class
         box.className = this.dropboxClassName;
