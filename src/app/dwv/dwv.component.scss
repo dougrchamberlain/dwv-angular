@@ -3,7 +3,7 @@
 $primary: map-get($nx-light-theme, primary);
 $accent: map-get($nx-light-theme, accent);
 
-#dwv {
+:host {
   height: 90%;
 }
 

@@ -1,4 +1,4 @@
-<div id="dwv">
+<div>
   <mat-progress-bar mode="determinate" value="{{ loadProgress }}"></mat-progress-bar>
   <div class="button-row">
     <button mat-raised-button color="primary" [matMenuTriggerFor]="menu" [disabled]="!dataLoaded">{{ selectedTool }}
@@ -18,7 +18,9 @@
   </div>
   <div class="legend mat-small">
     <p>Powered by
-    <a href="https://github.com/ivmartel/dwv">dwv</a>
-    {{ versions.dwv }}
-    and Angular {{ versions.angular }}</p></div>
+      <a href="https://github.com/ivmartel/dwv">dwv</a>
+      {{ versions.dwv }}
+      and Angular {{ versions.angular }}
+    </p>
+  </div>
 </div>
