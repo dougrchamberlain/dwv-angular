@@ -1,7 +1,7 @@
-@import "../assets/theme";
+@import "../../assets/theme";
 
-$primary: map-get($theme, primary);
-$accent: map-get($theme, accent);
+$primary: map-get($nx-light-theme, primary);
+$accent: map-get($nx-light-theme, accent);
 
 #dwv {
   height: 90%;
