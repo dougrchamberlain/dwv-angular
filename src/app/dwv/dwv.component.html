@@ -1,4 +1,5 @@
-<div>
+<div [id]="containerName">
+  <pre>{{containerName}}</pre>
   <mat-progress-bar mode="determinate" value="{{ loadProgress }}"></mat-progress-bar>
   <div class="button-row">
     <button mat-raised-button color="primary" [matMenuTriggerFor]="menu" [disabled]="!dataLoaded">{{ selectedTool }}
